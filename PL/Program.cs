@@ -15,6 +15,16 @@ namespace PL
        
             Console.WriteLine("BIENVENIDO A LA CALCULADORA");
             Console.WriteLine("");
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("--------                             -------");
+            Console.WriteLine("--------                             -------");
+            Console.WriteLine("--------     l               l       -------");
+            Console.WriteLine("--------                             -------");
+            Console.WriteLine("--------           -------           -------");
+            Console.WriteLine("--------                             -------");
+            Console.WriteLine("--------                             -------");
+            Console.WriteLine("--------                             -------");
+            Console.WriteLine("---------------------------------------------");
             Console.WriteLine("Ingresa el número (1) para Multiplicacion");
           
             Calculadora calculadora = new Calculadora();
