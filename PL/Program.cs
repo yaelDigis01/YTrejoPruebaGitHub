@@ -15,7 +15,7 @@ namespace PL
        
             Console.WriteLine("BIENVENIDO A LA CALCULADORA");
             Console.WriteLine("");
-            Console.WriteLine("Ingresa el número (1) para SUMA");
+            Console.WriteLine("Ingresa el número (1) para Resta");
           
             Calculadora calculadora = new Calculadora();
 
@@ -33,7 +33,7 @@ namespace PL
             switch (Operaciones)
             {
                 case 1:
-                    resultado = calculadora.Suma(calculadora.Numero1, calculadora.Numero2);
+                    resultado = calculadora.Resta(calculadora.Numero1, calculadora.Numero2);
                     break;
                 
                 default:
@@ -56,9 +56,9 @@ namespace PL
         public double Numero1 { get; set; }
         public double Numero2 { get; set; }
 
-        public double Suma(double numero1, double numero2)
+        public double Resta(double numero1, double numero2)
         {
-            return numero1 + numero2;
+            return numero1 - numero2;
         }
       
     }
