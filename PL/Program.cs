@@ -14,8 +14,11 @@ namespace PL
             Console.WriteLine("Hola esta es mi primer prueba de GitHub");
        
             Console.WriteLine("BIENVENIDO A LA CALCULADORA");
+            Console.WriteLine("______________________________");
+            Console.WriteLine("______________________________");
+            Console.WriteLine("______________________________");
             Console.WriteLine("");
-            Console.WriteLine("Ingresa el número (1) para SUMA");
+            Console.WriteLine("Ingresa el número (1) para Suma");
           
             Calculadora calculadora = new Calculadora();
 
