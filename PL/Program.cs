@@ -17,11 +17,11 @@ namespace PL
             Console.WriteLine("");
             Console.WriteLine("--------------------------------------------");
             Console.WriteLine("--------                             -------");
-            Console.WriteLine("--------                             -------");
-            Console.WriteLine("--------     l               l       -------");
+            Console.WriteLine("--------   -----           -----     -------");
+            Console.WriteLine("--------     ||             ||       -------");
             Console.WriteLine("--------                             -------");
             Console.WriteLine("--------           -------           -------");
-            Console.WriteLine("--------                             -------");
+            Console.WriteLine("--------              |              -------");
             Console.WriteLine("--------                             -------");
             Console.WriteLine("--------                             -------");
             Console.WriteLine("---------------------------------------------");
